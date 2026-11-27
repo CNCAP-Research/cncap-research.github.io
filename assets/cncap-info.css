@@ -8,3 +8,5 @@
 
 
 #publications .pub-controls{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}#publications .pub-controls label{display:flex;flex-direction:column;gap:5px;font-weight:600}#publications input,#publications select{font:inherit;padding:10px;border:1px solid #a5b79c;border-radius:6px;background:white;color:#245525;max-width:100%}#publications .pub-group{margin:28px 0}#publications .pub-group h3{color:#245525}#publications .pub-list{padding-left:25px}#publications .pub-list li{padding:12px 4px;border-bottom:1px solid #d5dfd2;line-height:1.7}#publications strong{color:#245525}#publications [hidden]{display:none!important}
+
+/* Mobile and tablet layout */@media (max-width: 900px) {.about-hero-grid {grid-template-columns: 1fr;gap: 28px;}.founder-portrait img {max-width: 240px;height: auto;}.founder-portrait {margin: 0 auto;}}
